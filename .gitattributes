@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:70b762e8636e9dd5632e487b1844119d87c8965613fe2029bbb1f5dd2b1f406d
-size 125
+*.pkl filter=lfs diff=lfs merge=lfs -text
+book_dataset.pkl filter=lfs diff=lfs merge=lfs -text
+topbooks(60).pkl filter=lfs diff=lfs merge=lfs -text
+final_dataset.pkl filter=lfs diff=lfs merge=lfs -text
